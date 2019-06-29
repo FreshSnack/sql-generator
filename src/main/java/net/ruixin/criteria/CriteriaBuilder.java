@@ -1,8 +1,6 @@
 package net.ruixin.criteria;
 
-public class CriteriaBuilder {
+public interface CriteriaBuilder {
 
-    public CriteriaQuery createQuery() {
-        return null;
-    }
+    CriteriaQuery createQuery();
 }
